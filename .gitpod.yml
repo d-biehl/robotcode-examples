@@ -1,0 +1,3 @@
+tasks:
+  - init: |
+      pipenv install --dev
