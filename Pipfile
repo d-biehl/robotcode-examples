@@ -7,6 +7,8 @@ name = "pypi"
 robotframework = "*"
 
 [dev-packages]
+robotframework-tidy = "*"
+robotframework-robocop = "*"
 
 [requires]
 python_version = "3.8"

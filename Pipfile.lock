@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "875806a35f7126b8e35d6bc22e302a33a676445109bb7e9de1d380df2b6fa5c1"
+            "sha256": "762b079c3f18e6e9cd7ccaa78931e6ee78d54cb2d095608cebb885811fa0670e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -25,5 +25,61 @@
             "version": "==4.1.3"
         }
     },
-    "develop": {}
+    "develop": {
+        "click": {
+            "hashes": [
+                "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3",
+                "sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.0.3"
+        },
+        "colorama": {
+            "hashes": [
+                "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
+                "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==0.4.4"
+        },
+        "pathspec": {
+            "hashes": [
+                "sha256:7d15c4ddb0b5c802d161efc417ec1a2558ea2653c2e8ad9c19098201dc1c993a",
+                "sha256:e564499435a2673d586f6b2130bb5b95f04a3ba06f81b8f895b651a3c76aabb1"
+            ],
+            "version": "==0.9.0"
+        },
+        "robotframework": {
+            "hashes": [
+                "sha256:06c025e5b640a378d372292921f49c28f7d025e4876b7b8f98ecc56a3def9dc0",
+                "sha256:d2675cbe3e5a4c90be3ddb61be3b88cc0d6ff503c298ad8f8a78aad14e71e886"
+            ],
+            "index": "pypi",
+            "version": "==4.1.3"
+        },
+        "robotframework-robocop": {
+            "hashes": [
+                "sha256:13d84aa6728ab4c6e45ab6c623559b2cf696638c015443ebace5d2c534141c83",
+                "sha256:19476df8f67a4b106de24a61e81e77ce4856967003176fb134bd83a708cf40c6"
+            ],
+            "index": "pypi",
+            "version": "==1.12.0"
+        },
+        "robotframework-tidy": {
+            "hashes": [
+                "sha256:61b82ff7cc4ada4a5a69f560326b194917c7e6a31ab1929210b5ad01c0014a82",
+                "sha256:f851c7e0e473820a2e82bdfd322b0d72c7e25043e5a58af48da636af9d23f2db"
+            ],
+            "index": "pypi",
+            "version": "==1.6.2"
+        },
+        "toml": {
+            "hashes": [
+                "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+                "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.10.2"
+        }
+    }
 }
