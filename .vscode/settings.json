@@ -1,4 +1,15 @@
 {
-    "python.pythonPath": ".venv/bin/python",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true
+    },
+    "files.watcherExclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true
+    },    
     "robotcode.debug.attachPython": true
 }
